@@ -1,0 +1,45 @@
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#00c0fa">
+
+    <EditText
+        android:id="@+id/edtxt"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:textColor="#fa0000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="#ede900"
+        android:text="Click ME"
+        android:textColor="#6b00ed"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="Click"/>
+
+
+    <TextView
+        android:id="@+id/rxtv"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:textColor="#fa0000">
+
+    </TextView>
+
+</LinearLayout>
+

@@ -1,0 +1,30 @@
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#eeff00"
+        android:text="change this on button click"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#6a00ff"
+        android:text="click me to change content"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="create"/>
+</LinearLayout>

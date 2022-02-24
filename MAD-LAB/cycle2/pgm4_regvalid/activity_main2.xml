@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#9eff0000"
+        android:text="welcome"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/text_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#9e001eff"
+        android:text="full_name-"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#9e001eff"
+        android:text="email-"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/blogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#00e6ff"/>
+
+
+</LinearLayout>
